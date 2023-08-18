@@ -1,7 +1,7 @@
 public interface Biblioteca<T>{
 
     void push(T data);
-    int pop();
+    T pop();
     int size();
     void clear();
     Boolean isFull();
