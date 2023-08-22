@@ -1,6 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        Fila f = new Fila(3);
-        System.out.println(f.isFull());
+        ListaDuplamenteEncadeada l = new ListaDuplamenteEncadeada<>();
+        l.add(1);
+        l.add(2);
+        l.add(4);
+        l.printar();
+        System.out.println(l.remove());
+        l.printar();
     }
 }
