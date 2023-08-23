@@ -6,5 +6,5 @@ public interface Biblioteca<T>{
     void clear();
     Boolean isFull();
     Boolean isEmpty();
-    
+
 }
