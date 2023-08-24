@@ -17,21 +17,21 @@ public class FloodFill {
         //checar se cordenada x-1,y deve ser pintada ( =voriginal & inbounds)
         if (cord.getX()-1 >= 0 && cord.getX()-1 <= matriz.getWithd()){
             Cordenada newcord = new Cordenada(cord.getX()-1,cord.getY());
-            if (matriz.matrix[cord.getX()-1][cord.getY()] == voriginal && !search(newcord)){
+            if (matriz.matrix[cord.getY()][cord.getX()-1] == voriginal && !search(newcord)){
                 foundcolorable(newcord);
             }
         }
         //checar se cordenada x,y-1 deve ser pintada ( =voriginal & inbounds)
         if (cord.getY()-1 >= 0 && cord.getY()-1 <= matriz.getHeight()){
             Cordenada newcord = new Cordenada(cord.getX(),cord.getY()-1);
-            if (matriz.matrix[cord.getX()][cord.getY()-1] == voriginal && !search(newcord)){
+            if (matriz.matrix[cord.getY()-1][cord.getX()] == voriginal && !search(newcord)){
                 foundcolorable(newcord);
             }
         }
         //checar se cordenada x+1,y deve ser pintada ( =voriginal & inbounds)
         if (cord.getX()+1 >= 0 && cord.getX()+1 <= matriz.getWithd()){
             Cordenada newcord = new Cordenada(cord.getX()+1,cord.getY());
-            if (matriz.matrix[cord.getX()+1][cord.getY()] == voriginal && !search(newcord)){
+            if (matriz.matrix[cord.getY()][cord.getX()+1] == voriginal && !search(newcord)){
                 foundcolorable(newcord);
             }
         }
@@ -39,7 +39,7 @@ public class FloodFill {
         //checar se cordenada x,y+1 deve ser pintada ( =voriginal & inbounds)
         if (cord.getY()+1 >= 0 && cord.getY()+1 <= matriz.getHeight()){
             Cordenada newcord = new Cordenada(cord.getX(),cord.getY()+1);
-            if (matriz.matrix[cord.getX()][cord.getY()+1] == voriginal && !search(newcord)){
+            if (matriz.matrix[cord.getY()+1][cord.getX()] == voriginal && !search(newcord)){
                 foundcolorable(newcord);
             }
         }
@@ -47,8 +47,30 @@ public class FloodFill {
     }
 
     // aplicar mudança com pilha
+    public void colorpilha(){
+        Pilha pilha = new Pilha<>(this.memory.length);
+        pilha.setTop(pilha.size()-1);
+        pilha.setData(this.memory);
+        for (int i = 0; i < pilha.getData().length; i++){
+            Cordenada cord = (Cordenada) pilha.pop();
+            this.matriz.matrix[cord.getY()][cord.getX()] = vnovo;
+            this.matriz.print();
+            System.out.println("==============================");
+        }
+    }
 
     // aplicar mudança com fila
+    public void colorfila(){
+        Fila fila = new Fila(this.memory.length);
+        fila.setTop(fila.size()-1);
+        fila.setData(this.memory);
+        for (int i = 0; i < fila.getData().length; i++){
+            Cordenada cord = (Cordenada) fila.pop();
+            this.matriz.matrix[cord.getY()][cord.getX()] = vnovo;
+            this.matriz.print();
+            System.out.println("==============================");
+        }
+    }
 
     public void add(Cordenada ponto){
         int size = this.memory.length+1;

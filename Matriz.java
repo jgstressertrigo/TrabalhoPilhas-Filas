@@ -4,9 +4,16 @@ public class Matriz {
     int [][] matrix;
     public Matriz() {
         this.matrix = new int[][]{
-                {1, 1, 0},
-                {1, 0, 1},
-                {0, 1, 1}
+                {1, 1, 1, 1, 1, 1, 1, 1, 1, 0},
+                {1, 1, 1, 1, 1, 1, 1, 1, 0, 1},
+                {1, 1, 1, 1, 1, 1, 1, 0, 1, 1},
+                {1, 1, 1, 1, 1, 1, 0, 1, 1, 1},
+                {1, 1, 1, 1, 1, 0, 1, 1, 1, 1},
+                {1, 1, 1, 1, 0, 1, 1, 1, 1, 1},
+                {1, 1, 1, 0, 1, 1, 1, 1, 1, 1},
+                {1, 1, 0, 1, 1, 1, 1, 1, 1, 1},
+                {1, 0, 1, 1, 1, 1, 1, 1, 1, 1},
+                {0, 1, 1, 1, 1, 1, 1, 1, 1, 1},
         };
     }
     public void print(){
@@ -15,9 +22,9 @@ public class Matriz {
         }
     }
     public int getHeight(){
-        return matrix.length;
+        return matrix.length-1;
     }
     public int getWithd(){
-        return matrix[0].length;
+        return matrix[0].length-1;
     }
 }

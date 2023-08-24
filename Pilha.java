@@ -1,7 +1,7 @@
 public class Pilha<T> implements Biblioteca {
     private int top =-1;
     private int size;
-    public T[] data;
+    private T[] data;
 
     public Pilha(int size) {
         this.size = size;
@@ -52,5 +52,14 @@ public class Pilha<T> implements Biblioteca {
     @Override
     public Boolean isEmpty() {
         return this.top < 0;
+    }
+    public void setData(T[] data) {
+        this.data = data;
+    }
+    public T[] getData() {
+        return data;
+    }
+    public void setTop(int top) {
+        this.top = top;
     }
 }

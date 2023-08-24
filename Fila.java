@@ -69,4 +69,20 @@ public class Fila<T> implements Biblioteca {
         }
         return true;
     }
+
+    public int getTop() {
+        return top;
+    }
+
+    public void setTop(int top) {
+        this.top = top;
+    }
+
+    public T[] getData() {
+        return data;
+    }
+
+    public void setData(T[] data) {
+        this.data = data;
+    }
 }
