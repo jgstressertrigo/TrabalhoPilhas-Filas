@@ -14,3 +14,10 @@ Ao rodar a classe Main, o programa executa o construtor de matrizes que vêm com
 
 Após a criação da matriz e a determinação da coordenada inicial, o programa executa o contrutor da classe FloodFill, pegando a matriz, a coordenada e define o novo número/cor, no nosso caso seria o número 2 , para então analisar os seus "vizinhos" diretos para verificar se esses números podem ser alterados/pintados, neste caso qualquer número diferente de 2 (0 e 1) e então adiciona os mesmos à Pilha/Fila, logo após verificar as 4 posições cardeais relativas a coordenada, o programa altera o valor da coordenada e de seus vizinhos.
 
+Segue a imagem da matriz inicial: ![image](https://github.com/jgstressertrigo/Pilha-Fila/assets/111205291/6f184a4d-988c-4728-9c5b-bd6877f4a9a3)
+
+
+Segue as Imagens da Matriz ao ser iniciada, na metade do processo e ao ser finalizado o programa: ![image](https://github.com/jgstressertrigo/Pilha-Fila/assets/111205291/232b53f8-db3c-47fc-acaa-97085820b474)
+![image](https://github.com/jgstressertrigo/Pilha-Fila/assets/111205291/d8104c45-f97b-4166-adbc-ac5938180656)
+![image](https://github.com/jgstressertrigo/Pilha-Fila/assets/111205291/992d7afd-e6ef-4a9e-88e7-ce495cf6a30a)
+
