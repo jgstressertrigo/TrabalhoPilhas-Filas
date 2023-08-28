@@ -1,4 +1,4 @@
-// classe FloodFill representa uma implementação do algoritmo de preenchimento por inundação, comumente usado em programas de edição de imagem para preencher regiões com uma cor específica.
+// classe FloodFill representa uma implementação do algoritmo de preenchimento por inundação.
 public class FloodFill {
     Cordenada cordenada;
     int voriginal;
