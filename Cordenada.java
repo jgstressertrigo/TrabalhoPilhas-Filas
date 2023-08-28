@@ -1,3 +1,5 @@
+//Classe Cordenada que representa um ponto no plano cartesiano com coordenadas x e y.
+//Ela fornece métodos para obter e definir essas coordenadas e também uma representação personalizada em string do ponto.
 public class Cordenada {
     private int x;
     private int y;
