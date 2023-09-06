@@ -1,13 +1,13 @@
-# PJBL 1 da matéria de Resolução de Problemas Estruturados em computação referente a pilhas e filas em Java.
+PJBL 1 da matéria de Resolução de Problemas Estruturados em computação referente a pilhas e filas em Java.
 <br />
 Para o desenvolvimento do código solicitado pela professora da matéria, nossa equipe implementou o mesmo em torno de 8 classes, sendo:
 <br />
-- 1 interface (classe Biblioteca) a ser usada pelas classes Fila e Pilha <br />
-- 1 classe main <br />
-- 1 classe para a matriz <br />
-- 1 classe para as listas duplamente encadeadas <br /> 
-- 1 classe do próprio Flood Fill <br />
-- 1 classe para a Coordenada da Matriz 
+ 1 interface (classe Biblioteca) a ser usada pelas classes Fila e Pilha <br />
+ 1 classe main <br />
+ 1 classe para a matriz <br />
+ 1 classe para as listas duplamente encadeadas <br /> 
+ 1 classe do próprio Flood Fill <br />
+ 1 classe para a Coordenada da Matriz 
 <br />
 Durante o desenvolvimento do algoritmo, a equipe optou por utilizar do tipo Genérico ("<T>"), que é implementado nas classes Biblioteca, Fila e Pilha. Também são utilizados outros tipos de dados mais conhecidos como o int, principalmente para a criação dos atributos bases da Fila e Pilha como: o top, o base, o size.
 <br />
@@ -26,7 +26,7 @@ Segue as Imagens da Matriz ao ser iniciada, na metade do processo e ao ser final
 ![image](https://github.com/jgstressertrigo/Pilha-Fila/assets/111205291/992d7afd-e6ef-4a9e-88e7-ce495cf6a30a) <br />
 <br />
 
-## Recuperação do trabalho 
+Recuperação do trabalho 
 <br />
 Para a recuperação do trabalho, foram feitas mudanças no código de flood fill, onde se foi apagado o método foundcolorable(), para substituir tal método, foram implementados nos próprios códigos de colorpilha() e colorfila() verificações que serviriam para checar se a coordenada inicial e as 4 coordenadas vizinhas poderiam ser pintadas/alteradas. Primeiro ocorre uma verificação geral da coordenada, que verifica se ela está fora dos limites da matriz para então extrair o X e o Y da coordenada e pintar a mesma. Após isso são criadas 4 coordenadas novas (esq, dir, baixo, cima) que são enviadas para a fila/pilha , isso tudo ocorre dentro de um while que roda enquanto a fila/pilha não estiver vazia: "while (!fila.isEmpty())". Tanto o colorpilha e colorfila seguem a mesma lógica.
 <br />
