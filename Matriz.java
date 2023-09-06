@@ -22,9 +22,9 @@ public class Matriz {
         }
     }
     public int getHeight(){
-        return matrix.length-1;
+        return matrix.length;
     }
     public int getWithd(){
-        return matrix[0].length-1;
+        return matrix[0].length;
     }
 }

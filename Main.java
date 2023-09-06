@@ -19,10 +19,10 @@ public class Main {
         int op = teclado.nextInt();
         switch (op){
             case 1:
-                floodFill.colorfila();
+                floodFill.colorfila(coordenada);
                 break;
             case 2:
-                floodFill.colorpilha();
+                floodFill.colorpilha(coordenada);
                 break;
         }
     }
