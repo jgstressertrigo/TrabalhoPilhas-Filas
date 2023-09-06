@@ -18,13 +18,12 @@ Após a criação da matriz e a determinação da coordenada inicial, o programa
 Segue a imagem da matriz inicial:
 <br />
 ![image](https://github.com/jgstressertrigo/Pilha-Fila/assets/111205291/6f184a4d-988c-4728-9c5b-bd6877f4a9a3)
-
-
+<br />
 Segue as Imagens da Matriz ao ser iniciada, na metade do processo e ao ser finalizado o programa:
 <br />
-![image](https://github.com/jgstressertrigo/Pilha-Fila/assets/111205291/232b53f8-db3c-47fc-acaa-97085820b474)
-![image](https://github.com/jgstressertrigo/Pilha-Fila/assets/111205291/d8104c45-f97b-4166-adbc-ac5938180656)
-![image](https://github.com/jgstressertrigo/Pilha-Fila/assets/111205291/992d7afd-e6ef-4a9e-88e7-ce495cf6a30a)
+![image](https://github.com/jgstressertrigo/Pilha-Fila/assets/111205291/232b53f8-db3c-47fc-acaa-97085820b474) <br />
+![image](https://github.com/jgstressertrigo/Pilha-Fila/assets/111205291/d8104c45-f97b-4166-adbc-ac5938180656) <br />
+![image](https://github.com/jgstressertrigo/Pilha-Fila/assets/111205291/992d7afd-e6ef-4a9e-88e7-ce495cf6a30a) <br />
 <br />
 
 ## Recuperação do trabalho 
@@ -35,14 +34,14 @@ Outra melhoria feita em cima do código base, é a adição de scanners no main,
 <br />
 Segue imagens da execução via Fila:
 <br />
-![image](https://github.com/jgstressertrigo/TrabalhoPilhas-Filas/assets/111205291/bf3457cd-a296-4eb8-9985-42aca76f1325)
-![image](https://github.com/jgstressertrigo/TrabalhoPilhas-Filas/assets/111205291/53bfba6c-0e4d-449e-8506-8041c0fb92f2)
-![image](https://github.com/jgstressertrigo/TrabalhoPilhas-Filas/assets/111205291/1dff92db-3e94-4f77-8ef6-7d6969b70232)
+![image](https://github.com/jgstressertrigo/TrabalhoPilhas-Filas/assets/111205291/bf3457cd-a296-4eb8-9985-42aca76f1325) <br />
+![image](https://github.com/jgstressertrigo/TrabalhoPilhas-Filas/assets/111205291/53bfba6c-0e4d-449e-8506-8041c0fb92f2) <br />
+![image](https://github.com/jgstressertrigo/TrabalhoPilhas-Filas/assets/111205291/1dff92db-3e94-4f77-8ef6-7d6969b70232) <br />
 <br />
 Segue imagens da execução via Pilha:
 <br />
-![image](https://github.com/jgstressertrigo/TrabalhoPilhas-Filas/assets/111205291/a045103e-d07f-4b1a-b688-b158ddf1a438)
-![image](https://github.com/jgstressertrigo/TrabalhoPilhas-Filas/assets/111205291/f2f4b706-2e89-4b3e-add8-f5722ba7e6b6)
-![image](https://github.com/jgstressertrigo/TrabalhoPilhas-Filas/assets/111205291/28331504-5cac-402c-974c-3891c7f21303)
+![image](https://github.com/jgstressertrigo/TrabalhoPilhas-Filas/assets/111205291/a045103e-d07f-4b1a-b688-b158ddf1a438) <br />
+![image](https://github.com/jgstressertrigo/TrabalhoPilhas-Filas/assets/111205291/f2f4b706-2e89-4b3e-add8-f5722ba7e6b6) <br />
+![image](https://github.com/jgstressertrigo/TrabalhoPilhas-Filas/assets/111205291/28331504-5cac-402c-974c-3891c7f21303) <br />
 <br />
 
