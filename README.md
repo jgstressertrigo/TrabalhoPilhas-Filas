@@ -2,12 +2,12 @@
 <br />
 Para o desenvolvimento do código solicitado pela professora da matéria, nossa equipe implementou o mesmo em torno de 8 classes, sendo:
 <br />
-* 1 interface (classe Biblioteca) a ser usada pelas classes Fila e Pilha <br />
-* 1 classe main <br />
-* 1 classe para a matriz <br />
-* 1 classe para as listas duplamente encadeadas <br /> 
-* 1 classe do próprio Flood Fill <br />
-* 1 classe para a Coordenada da Matriz 
+- 1 interface (classe Biblioteca) a ser usada pelas classes Fila e Pilha <br />
+- 1 classe main <br />
+- 1 classe para a matriz <br />
+- 1 classe para as listas duplamente encadeadas <br /> 
+- 1 classe do próprio Flood Fill <br />
+- 1 classe para a Coordenada da Matriz 
 <br />
 Durante o desenvolvimento do algoritmo, a equipe optou por utilizar do tipo Genérico ("<T>"), que é implementado nas classes Biblioteca, Fila e Pilha. Também são utilizados outros tipos de dados mais conhecidos como o int, principalmente para a criação dos atributos bases da Fila e Pilha como: o top, o base, o size.
 <br />
@@ -40,8 +40,8 @@ Segue imagens da execução via Fila:
 <br />
 Segue imagens da execução via Pilha:
 <br />
-![image](https://github.com/jgstressertrigo/TrabalhoPilhas-Filas/assets/111205291/a045103e-d07f-4b1a-b688-b158ddf1a438) <br />
-![image](https://github.com/jgstressertrigo/TrabalhoPilhas-Filas/assets/111205291/f2f4b706-2e89-4b3e-add8-f5722ba7e6b6) <br />
-![image](https://github.com/jgstressertrigo/TrabalhoPilhas-Filas/assets/111205291/28331504-5cac-402c-974c-3891c7f21303) <br />
+[![image](https://github.com/jgstressertrigo/TrabalhoPilhas-Filas/assets/111205291/a045103e-d07f-4b1a-b688-b158ddf1a438)](https://user-images.githubusercontent.com/111205291/265987156-8068bfec-441d-42a3-a551-7afecefb8b43.png) <br />
+[![image](https://github.com/jgstressertrigo/TrabalhoPilhas-Filas/assets/111205291/f2f4b706-2e89-4b3e-add8-f5722ba7e6b6)](https://user-images.githubusercontent.com/111205291/265987156-8068bfec-441d-42a3-a551-7afecefb8b43.png) <br />
+[![image](https://github.com/jgstressertrigo/TrabalhoPilhas-Filas/assets/111205291/28331504-5cac-402c-974c-3891c7f21303)](https://user-images.githubusercontent.com/111205291/265987156-8068bfec-441d-42a3-a551-7afecefb8b43.png) <br />
 <br />
 
