@@ -1,3 +1,4 @@
+//Implementação de uma lista ligada, onde cada elemento sabe tanto do próximo elemento quanto do anterior. Isso permite operações bidirecionais eficientes.
 public class ListaDuplamenteEncadeada<T> {
     No primeiro;
     No ultimo;
@@ -44,6 +45,7 @@ public class ListaDuplamenteEncadeada<T> {
     }
 
     public void add(T value){
+        //Adiciona um novo nó com o valor fornecido ao final da lista.
         No node = new No<>(value);
         if (this.primeiro == null){
             this.primeiro = node;
@@ -55,6 +57,7 @@ public class ListaDuplamenteEncadeada<T> {
         }
     }
     public No remove(){
+        //Remove o último nó da lista.
         System.out.println("removendo");
         if (this.primeiro != null){
             if (getSize() > 1){
@@ -72,6 +75,7 @@ public class ListaDuplamenteEncadeada<T> {
     }
 
     public int getSize(){
+        //Retorna o número de nós na lista.
         No node = this.primeiro;
         int size = 0;
         while (node != null){
@@ -82,6 +86,7 @@ public class ListaDuplamenteEncadeada<T> {
     }
 
     public void printar(){
+        //Imprime o valor de cada nó na lista.
         No node = this.primeiro;
         while (node != null){
             System.out.println(node.getData());
