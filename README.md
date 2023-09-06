@@ -26,7 +26,7 @@ Segue as Imagens da Matriz ao ser iniciada, na metade do processo e ao ser final
 ![image](https://github.com/jgstressertrigo/Pilha-Fila/assets/111205291/d8104c45-f97b-4166-adbc-ac5938180656)
 ![image](https://github.com/jgstressertrigo/Pilha-Fila/assets/111205291/992d7afd-e6ef-4a9e-88e7-ce495cf6a30a)
 <br />
----
+
 ## Recuperação do trabalho 
 <br />
 Para a recuperação do trabalho, foram feitas mudanças no código de flood fill, onde se foi apagado o método foundcolorable(), para substituir tal método, foram implementados nos próprios códigos de colorpilha() e colorfila() verificações que serviriam para checar se a coordenada inicial e as 4 coordenadas vizinhas poderiam ser pintadas/alteradas. Primeiro ocorre uma verificação geral da coordenada, que verifica se ela está fora dos limites da matriz para então extrair o X e o Y da coordenada e pintar a mesma. Após isso são criadas 4 coordenadas novas (esq, dir, baixo, cima) que são enviadas para a fila/pilha , isso tudo ocorre dentro de um while que roda enquanto a fila/pilha não estiver vazia: "while (!fila.isEmpty())". Tanto o colorpilha e colorfila seguem a mesma lógica.
